@@ -1,11 +1,10 @@
 <?php
 /**
- * 图像操作类库
+ * 验证码库
  *
  */
 class ImageGd
 {
-
     /**
      * 取得图像信息
      * @static
@@ -315,9 +314,9 @@ class ImageGd
     }
 
     // 中文验证码
-    static function GBVerify($length=4, $type='png', $width=180, $height=50, $fontface='simhei.ttf', $verifyName='verify') {
-        import('ORG.Util.String');
-        $code = String::randString($length, 4);
+    static function GBVerify($length=4, $type='png', $width=180, $height=50, $fontface='simhei.ttf', $verifyName='verify')
+    {
+        $code = StringWeb::randString($length, 4);
         $width = ($length * 45) > $width ? $length * 45 : $width;
         session($verifyName, md5($code));
         $im = imagecreatetruecolor($width, $height);
@@ -339,7 +338,7 @@ class ImageGd
         }
         for ($i = 0; $i < $length; $i++) {
             $fontcolor = imagecolorallocate($im, mt_rand(0, 120), mt_rand(0, 120), mt_rand(0, 120)); //这样保证随机出来的颜色较深。
-            $codex = String::msubstr($code, $i, 1);
+            $codex = StringWeb::msubstr($code, $i, 1);
             imagettftext($im, mt_rand(16, 20), mt_rand(-60, 60), 40 * $i + 20, mt_rand(30, 35), $fontcolor, $fontface, $codex);
         }
         ImageGd::output($im, $type);

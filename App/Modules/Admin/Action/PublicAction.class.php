@@ -148,11 +148,6 @@ class PublicAction extends AdminAction
         $this->display();
     }
 
-    public function verify() {
-        $type	 =	 isset($_GET['type'])?$_GET['type']:'gif';
-        ImageGd::buildImageVerify(4,1,$type);
-    }
-
     // 修改资料
     public function change() {
         $this->checkUser();

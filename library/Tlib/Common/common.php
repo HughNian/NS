@@ -349,7 +349,7 @@ function D($name='',$layer='') {
         import($path[2].'/'.$path[1].'/'.$path[3].$layer,$baseUrl);
     }else{
         import($name.$layer);
-    } 
+    }
     $class          =   basename($name.$layer);
     if(class_exists($class)) {
         $model      =   new $class(basename($name));

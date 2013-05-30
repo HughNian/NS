@@ -1,6 +1,7 @@
 <?php
 // 后台用户模块
-class UserAction extends AdminAction {
+class UserAction extends AdminAction
+{
     function _filter(&$map){
         $map['id'] = array('egt',2);
         if(!empty($_POST['account'])) {

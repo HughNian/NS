@@ -5,7 +5,7 @@ define("BCCOMP_LARGER", 1);
  * @category   ORG
  * @package  ORG
  * @subpackage  Crypt
- * @author    liu21st <liu21st@gmail.com>
+ *
  */
 class RsaCrypt
 {

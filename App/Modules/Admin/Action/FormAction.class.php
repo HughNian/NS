@@ -1,5 +1,6 @@
 <?php
-class FormAction extends AdminAction {
+class FormAction extends AdminAction 
+{
     //过滤查询字段
     function _filter(&$map){
         if(!empty($_POST['name'])) {

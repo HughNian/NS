@@ -1,9 +1,27 @@
 <?php
-class IndexAction extends AdminAction {
-    // 框架首页
-    public function index() {
-        C ( 'SHOW_RUN_TIME', false ); // 运行时间显示
-        C ( 'SHOW_PAGE_TRACE', false );
-        $this->display();
+/**
+ * Admin后台登录
+ * 
+ * @author HughNian
+ *
+ */
+class IndexAction extends AdminAction
+{
+	public function _initialize()
+	{
+		$this->_setViewName('Index');
+	}
+	
+    public function index() 
+    {
+    	
+        $this->_view->_display('index.tpl');
+    }
+    
+    //验证码
+    public function verify()
+    {
+    	$type = isset($_GET['type'])?$_GET['type']:'gif';
+    	ImageGd::GBVerify();
     }
 }

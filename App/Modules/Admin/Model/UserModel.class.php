@@ -1,6 +1,7 @@
 <?php
 // 用户模型
-class UserModel extends CommonModel {
+class UserModel extends AdminModel
+{
     public $_validate	=	array(
         array('account','/^[a-z]\w{3,}$/i','帐号格式错误'),
         array('password','require','密码必须'),
@@ -16,7 +17,8 @@ class UserModel extends CommonModel {
         array('update_time','time',self::MODEL_UPDATE,'function'),
         );
 
-    protected function pwdHash() {
+    protected function pwdHash()
+    {
         if(isset($_POST['password'])) {
             return pwdHash($_POST['password']);
         }else{
