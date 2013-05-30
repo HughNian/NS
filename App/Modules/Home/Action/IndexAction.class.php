@@ -3,7 +3,7 @@ class IndexAction extends HomeAction
 {	
 	public function _initialize()
 	{
-		$this->_setViewName('Index');
+		$this->_setViewName('Index');//设置smarty模板目录
 	}
 	
     public function index()
