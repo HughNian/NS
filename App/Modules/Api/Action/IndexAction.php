@@ -9,6 +9,4 @@ class IndexAction extends ApiAction
 	{
 		parent::_initialize();
 	}
-	
-	
 }
