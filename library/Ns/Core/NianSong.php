@@ -41,8 +41,12 @@ class Ns
 			if(ns_require_array(array(NS_WEB_PATH . $file), true)) {
 				return;
 			};
-		}  else if (substr($class, -6) == 'Driver') {//加载Dirver驱动目录
+		} else if (substr($class, -6) == 'Driver') {//加载Dirver驱动目录
 			if(ns_require_array(array(NS_DRIVER_PATH . $file), true)) {
+				return;
+			};
+		} else if (substr($class, -5) == 'Crypt') {//加载加密类目录
+			if(ns_require_array(array(NS_CRYPT_PATH . $file), true)) {
 				return;
 			};
 		} else {//加载NS套框架根目录下类库

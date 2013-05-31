@@ -151,52 +151,6 @@ class CommonAction extends AbstractAction
         return;
     }
 
-    function insert() {
-        $name = $this->getActionName();
-        $model = D($name);
-        if (false === $model->create()) {
-            $this->error($model->getError());
-        }
-        //保存当前数据对象
-        $list = $model->add();
-        if ($list !== false) { //保存成功
-            $this->success('新增成功!',cookie('_currentUrl_'));
-        } else {
-            //失败提示
-            $this->error('新增失败!');
-        }
-    }
-
-    function read() {
-        $this->edit();
-    }
-
-    function edit() {
-        $name = $this->getActionName();
-        $model = M($name);
-        $id = $_REQUEST [$model->getPk()];
-        $vo = $model->getById($id);
-        $this->assign('vo', $vo);
-        $this->display();
-    }
-
-    function update() {
-        $name = $this->getActionName();
-        $model = D($name);
-        if (false === $model->create()) {
-            $this->error($model->getError());
-        }
-        // 更新数据
-        $list = $model->save();
-        if (false !== $list) {
-            //成功提示
-            $this->success('编辑成功!',cookie('_currentUrl_'));
-        } else {
-            //错误提示
-            $this->error('编辑失败!');
-        }
-    }
-
     /**
       +----------------------------------------------------------
      * 默认删除操作

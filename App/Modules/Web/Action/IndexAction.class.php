@@ -3,6 +3,7 @@ class IndexAction extends WebAction
 {	
 	public function _initialize()
 	{
+		parent::_initialize();
 		$this->_setViewName('Index');//设置smarty模板目录
 	}
 	
