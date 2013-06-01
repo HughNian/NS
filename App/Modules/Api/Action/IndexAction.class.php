@@ -1,6 +1,6 @@
 <?php
 /**
- * API,url默认控制器 test
+ * API,url默认控制器
  * 
  */
 class IndexAction extends ApiAction
