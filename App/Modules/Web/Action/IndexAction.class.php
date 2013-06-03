@@ -9,6 +9,13 @@ class IndexAction extends WebAction
 	
     public function index()
     {
+    	$crypt = new TripleDesCrypt(C('API_KEY'), C('API_IV'));
+    	$array = json_encode(array('1','2','3','4'));
+    	$data = $crypt->encrypt($array);
+    	echo $data.'<br />';
+    	$json = $crypt->decrypt($data);
+    	echo $json;
+    	exit;
     	$title = C('WEB_TITLE');
         $this->_view->_assign('title', $title);
         $this->_view->_display('index.tpl');

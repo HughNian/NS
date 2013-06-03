@@ -6,7 +6,7 @@ class ApiAction extends CommonAction
 	public function _initialize()
 	{
 		parent::_initialize();
-		$this->_crypt = new DesCrypt();
+		$this->_crypt = new TripleDesCrypt(C('API_KEY'), C('API_IV'));
 	}
 	
 	/**
@@ -19,7 +19,7 @@ class ApiAction extends CommonAction
 		if ($result == RC_SUCCESS) {
 			$data['internal'] = $internal;
 			$data = json_encode($data);
-			$data = $this->_crypt->encrypt($data, C('API_KEY'));
+			$data = $this->_crypt->encrypt($data);
 		} else {
 			$data = '';
 		}
