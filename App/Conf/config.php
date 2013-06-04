@@ -1,8 +1,9 @@
 <?php
 return array(
-	'URL_ROUTER_ON'             =>  false,                                        //开启路由
-	'URL_ROUTE_RULES'           => array( //定义路由规则
-									'' => array(),
+	'URL_ROUTER_ON'             => true,                                          //开启路由
+	'URL_ROUTE_RULES'           => array(//定义路由规则
+									'api'    => 'Api/Index/index',
+									'search' => 'Api/Index/index/search',			  
 								),
     'URL_MODEL'                 =>  1,                                            // 如果你的环境不支持PATHINFO 请设置为3
 	'URL_CASE_INSENSITIVE'      =>  true,
@@ -20,6 +21,7 @@ return array(
     'APP_AUTOLOAD_PATH'         =>  '@.TagLib',
 	'TMPL_CACHE_ON'             =>  1,                                            //是否开启模板缓存
 	'WEB_TITLE'                 =>  '站内搜索引擎',                                   //全站title名
-	'API_KEY'					=>  '$2y$14$UjuWD6XzicGr27x2shShf.V9i7F590Qvc',   //api加密key
-	'API_IV'                    =>  '123456'                                      //api加密iv
+	'API_KEY'					=>  '2y14UjuWD6XzicGr27x2shSh',   				  //api加密key
+	'API_IV'                    =>  '12345678',                                   //api加密iv
+	'API_TYPE'                  =>  'json'                                        //默认api接口返回数据类型为json
 );
