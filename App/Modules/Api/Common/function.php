@@ -14,8 +14,8 @@ function Url2Array($url)
 	
 	foreach($urls as $key => $val) {
 		static $urlarray = array();
-		$key        = strstr($val, '=', true);
-		$val        = substr(strstr($val, '='),1);
+		$key = strstr($val, '=', true);
+		$val = substr(strstr($val, '='),1);
 		if($val == "") {
 			$urlarray = false;
 			break;

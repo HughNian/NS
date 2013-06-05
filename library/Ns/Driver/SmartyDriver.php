@@ -82,7 +82,7 @@ class SmartyDriver
     /**
      * 设置模板目录名
      * 
-     * @param unknown $viewName
+     * @param string $viewName
      */
     private function setViewName($viewName)
     {

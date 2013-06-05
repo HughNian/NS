@@ -23,5 +23,7 @@ return array(
 	'WEB_TITLE'                 =>  '站内搜索引擎',                                   //全站title名
 	'API_KEY'					=>  '2y14UjuWD6XzicGr27x2shSh',   				  //api加密key
 	'API_IV'                    =>  '12345678',                                   //api加密iv
-	'API_TYPE'                  =>  'json'                                        //默认api接口返回数据类型为json
+	'API_TYPE'                  =>  'json',                                       //默认api接口返回数据类型为json
+	'SPHINX_PORT'               =>  9312,                                         //sphinx搜索引擎服务器端口号
+	'SPHINX_IP'                 =>  '127.0.0.1',                                  //sphinx搜索引擎服务器ip 
 );
