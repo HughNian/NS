@@ -81,12 +81,4 @@ class SphinxDriver extends SphinxClient
 		parent::__destruct();
 	}
 	
-	/**
-	 * 设置搜索权重
-	 * 
-	 */
-	public function setPageRank()
-	{
-		
-	}
 }
