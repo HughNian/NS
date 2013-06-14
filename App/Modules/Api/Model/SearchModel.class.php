@@ -19,6 +19,5 @@ class SearchModel extends ApiModel
 		$result = $this->searchResult($query, "*");
 		
 		return $this->returnResult(RE_SUCCESS, $result);
-	} 
-	
+	}
 }

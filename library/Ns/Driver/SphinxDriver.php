@@ -71,6 +71,15 @@ class SphinxDriver extends SphinxClient
 	}
 	
 	/**
+	 * 设置搜索结果的limit实现分页
+	 * 
+	 */
+	public function D_SetLimits($offset, $limit, $max=0, $cutoff=0)
+	{
+		$this->SetLimits($offset, $limit, $max=0, $cutoff=0);
+	}
+	
+	/**
 	 * 继承父类析构函数
 	 * 
 	 * (non-PHPdoc)

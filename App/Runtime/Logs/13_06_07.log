@@ -1,0 +1,24 @@
+[ 2013-06-07T13:40:33+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+
+[ 2013-06-07T13:40:33+08:00 ] 127.0.0.1 /js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.052003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.052003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Js
+
+[ 2013-06-07T13:40:33+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+

@@ -25,5 +25,6 @@ return array(
 	'API_IV'                    =>  '12345678',                                   //api加密iv
 	'API_TYPE'                  =>  'json',                                       //默认api接口返回数据类型为json
 	'SPHINX_PORT'               =>  9312,                                         //sphinx搜索引擎服务器端口号
-	'SPHINX_IP'                 =>  '127.0.0.1',                                  //sphinx搜索引擎服务器ip 
+	'SPHINX_IP'                 =>  '127.0.0.1',                                  //sphinx搜索引擎服务器ip
+	'API_SEARCH_URL'            =>  'http://www.ns.com/api/search/get.json',      //搜索api链接,json格式返回
 );

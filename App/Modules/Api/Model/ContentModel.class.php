@@ -13,5 +13,5 @@ class ContentModel extends ApiModel
 		
 		$result = array('user_id'=>$user_id, 'username'=>$username);
 		return $this->returnResult(RE_SUCCESS, $result);
-	}	
+	}
 }
