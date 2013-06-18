@@ -24,7 +24,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
 )));
 
 // 加载Ns套框架入口文件
-require("/Ns/Ns.php");
+require("Ns/Ns.php");
 
 // 加载框架入口文件
-require( "/Tlib/ThinkPHP.php");
+require( "Tlib/ThinkPHP.php");

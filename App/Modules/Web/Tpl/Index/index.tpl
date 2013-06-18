@@ -1,13 +1,10 @@
 <!--{include file="../Common/header.tpl"}-->
-<style type="text/css">
-	body {font-family: Consolas, 'Liberation Mono', Courier, monospace;}
-</style>
 <body>
     <div class="container">
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit" style="background:#FFF;">
         <div style="width:100%; height:100px;"></div>
-        <center><h1><font color="#6E329D">Welcome NS</font></h1></center>
+        <center><h1 class="pure-u-1" style="color:#6E329D;">Seek About</h1></center>
       	<center>
 	      	<form method="POST" action="/index/search" class="form-search" style="margin-top:30px;">
 			  <input type="text" name="q" class="pure-input-rounded" style="width:490px;height:30px;" autofocus="true" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" aria-haspopup="true" aria-combobox="list" role="combobox">

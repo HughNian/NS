@@ -1,17 +1,83 @@
 <!--{include file="../Common/header.tpl"}-->
+<style type="text/css">
+	h1 {font-weight:100; margin-top:0px;}
+	a:hover {text-decoration:none;}
+</style>
 <body>
 	<div class="searchbox clearfix">
-        <a href="http://search.dxy.cn" class="fl ml15"><img src="http://assets.dxycdn.com/app/search/images/small_logo.png" alt="丁香搜索"></a>
-        <div class="search fl clearfix" id="search-result-bar">
-            <form method="get" action="http://search.dxy.cn" onsubmit="return searchutil.format();">
-                <input type="text" name="q" class="pure-input-rounded" style="width:490px;height:22px;" autofocus="true" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" aria-haspopup="true" aria-combobox="list" role="combobox">
-				<button type="submit" class="pure-button pure-button-primary" style="height:">Search</button>
+        <a href="/" class="fl ml15"><h1><font color="#6E329D">Seek About</font></h1></a>
+        <div class="search fl " id="search-result-bar">
+            <form method="get" action="/index/search" onsubmit="return searchutil.format();">
+                <input type="text" name="q" value="<!--{$keyword}-->" class="pure-input-rounded" style="float:left;width:490px;height:25px;" autofocus="true" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" aria-haspopup="true" aria-combobox="list" role="combobox">
+				<button type="submit" class="pure-button pure-button-primary" style="float:left;height:35px;margin-left:5px;">Search</button>
             </form>
         </div>
-        <div class="advance fl"><a href="http://search.dxy.cn?words=%26lt%3B%26gt%3B%26lt%3B%26gt%3B%26lt%3B%26gt%3B%26lt%3Bscript%26gt%3Balert%28%2Fx%2F%29%26lt%3B%2Fscript%26gt%3B&amp;action=Advanced">高级搜索</a></div>
 		<div class="advance fl" style="padding-left:20px;">
-			
 		</div>
-		 <p class="search-result-num">找到约280602条结果</p>
+		 <!--{if $totalnum != 0}--><p class="search-result-num">找到约<!--{$totalnum}-->条结果</p><!--{/if}-->
+    </div>
+    <div class="clearfix" id="result">
+        <div class="fl" id="main" style="float:left;margin-left:-45px;">
+        	<!--{if $totalnum != 0}-->
+            <dl>
+                <dd id="zhaiyao">
+	                	<!--{foreach from=$real_datas item=val key=key}-->
+							<ul>
+		                        <li><a class="title pic" href="<!--{$val.url.0}-->" target="_blank"><!--{$val.title.0}--></a></li>
+		                        <li class="content">
+									<!--{$val.des.0}-->
+								</li>
+		                        <li class="author">
+		                        	<span><!--{$val.url.0}--> 发表于 <!--{$val.create_time.0|date_format:"%Y-%m-%d %H:%M:%S"}--></span>
+		                            <span id="score">价格:<!--{$val.price.0}--></span>
+		                        </li>
+		                    </ul>
+		                <!--{/foreach}-->
+				 </dd>
+            </dl>
+            <div class="pure-paginator" style="float:left;margin-left:70px;">
+				<a class="pure-button prev" href="?words=g&amp;pge=1">1</a>
+				<a class="pure-button" href="?words=g&amp;pge=2">2</a>
+				<a class="pure-button" href="?words=g&amp;pge=3">3</a>
+				<a class="pure-button" href="?words=g&amp;pge=4">4</a>
+				<a class="pure-button" href="?words=g&amp;pge=5">5</a>
+				<a class="pure-button" href="?words=g&amp;pge=6">6</a>
+				<a class="pure-button" href="?words=g&amp;pge=7">7</a>
+				<a class="pure-button" href="?words=g&amp;pge=8">8</a>
+				<a class="pure-button" href="?words=g&amp;pge=9">9</a>
+				<a class="pure-button" href="?words=g&amp;pge=10">10</a>
+				<a class="pure-button next" id="next" href="?words=g&amp;pge=2">next &gt;</a>
+			</div>
+		    <!--{else}-->
+			    <dd id="zhaiyao">
+			    	<ul>
+		           		<li><h2>Sorry，Not Found Any Content About this <font color="#D50000"><!--{$keyword}--></font> Keyword.</h2></li>
+		           	</ul>
+		        </dd>
+	        <!--{/if}-->
+        </div>
+        <div class="fl w252" id="search_result">
+        	<div class="adv200x150">
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+			<dl class="right_search" style="display:block;">
+				<dt class="clearfix"><span class="fl">advertising promotion</span><span class="fr"><a target="_blank" href="http://search.jobmd.cn/">More</a></span></dt>
+                <dd>
+                    <dl id="oth_search_jobmd">
+                    </dl>
+                </dd>
+                <dd class="line"></dd>
+            </dl>
+            <dl class="right_search" style="display:block;margin-top:10px;">
+                <dt class="clearfix"><span class="fl">品牌推广</span><span class="fr"><a target="_blank" href="http://www.biomart.cn/product/heihei">More</a></span></dt>
+                <dd>
+                    <dl id="oth_search_tong">
+                    </dl>
+                </dd>
+                <dd class="line"></dd>
+            </dl>
+        </div>
     </div>
 </body>

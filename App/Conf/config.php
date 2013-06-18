@@ -5,7 +5,7 @@ return array(
 									'api'    => 'Api/Index/index',
 									'search' => 'Api/Index/index/search',			  
 								),
-    'URL_MODEL'                 =>  1,                                            // 如果你的环境不支持PATHINFO 请设置为3
+    'URL_MODEL'                 =>  2,                                            // 如果你的环境不支持PATHINFO 请设置为3
 	'URL_CASE_INSENSITIVE'      =>  true,
     'DB_TYPE'                   =>  'mysql',
     'DB_HOST'                   =>  'localhost',
@@ -20,7 +20,7 @@ return array(
     'SHOW_PAGE_TRACE'           =>  0,                                            //显示调试信息 
     'APP_AUTOLOAD_PATH'         =>  '@.TagLib',
 	'TMPL_CACHE_ON'             =>  1,                                            //是否开启模板缓存
-	'WEB_TITLE'                 =>  '站内搜索引擎',                                   //全站title名
+	'WEB_TITLE'                 =>  'Seek About',                                   //全站title名
 	'API_KEY'					=>  '2y14UjuWD6XzicGr27x2shSh',   				  //api加密key
 	'API_IV'                    =>  '12345678',                                   //api加密iv
 	'API_TYPE'                  =>  'json',                                       //默认api接口返回数据类型为json

@@ -12,5 +12,10 @@
   <link rel="stylesheet" type="text/css" href="/css/local.css">
   <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/dio4llx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
  </head>
+ <style type="text/css">
+	html  {font-family: "museo-slab"; font-style:normal;font-weight:100;}
+	h1,h2 {font-weight:100;}
+ </style>

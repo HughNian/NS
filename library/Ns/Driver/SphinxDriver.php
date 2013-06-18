@@ -58,6 +58,42 @@ class SphinxDriver extends SphinxClient
 	}
 	
 	/**
+	 * 重写SetRankingMode方法在程序中可以使用 
+	 * 
+	 * @param unknown $ranker
+	 * 
+	 */
+	public function D_SetRankingMode($ranker)
+	{
+		assert ( $ranker==SPH_RANK_PROXIMITY_BM25
+		|| $ranker==SPH_RANK_BM25
+		|| $ranker==SPH_RANK_NONE
+		|| $ranker==SPH_RANK_WORDCOUNT
+		|| $ranker==SPH_RANK_PROXIMITY );
+		$this->SetRankingMode($ranker);
+	}
+	
+	/**
+	 * 重写SetFieldWeights方法在程序中可以使用 
+	 * 
+	 */
+	public function D_SetFieldWeights($weights)
+	{
+		assert ( is_array($weights) );
+		$this->SetFieldWeights($weights);
+	}
+	
+	/**
+	 * 重写SetSortMode方法在程序中可以使用 
+	 * 
+	 * 
+	 */
+	public function D_SetSortMode($mode, $sortby="")
+	{
+		$this->SetSortMode($mode, $sortby="");
+	}
+	
+	/**
 	 * 重写Query方法在程序中可以使用
 	 *  
 	 * @param mix $query - 搜索的参数值

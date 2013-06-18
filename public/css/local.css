@@ -170,7 +170,7 @@ input.focus{border:0px solid #5C6E84; border-right:0;}
 .advanced form{position:relative;}
 .advanced form .btn{position:absolute; height:28px; top:26px; left:543px; background-position:-104px 0;font-size:13px;}
 .advanced .blankbg{padding-bottom:5px; margin-bottom:10px;}
-.search-result-num{clear:both;padding:5px 0 0 700px;color:#959595}
+.search-result-num{;padding:5px 0 0 700px;color:#959595}
 
 /*搜索首页*/
 .bbssearch{width:620px; margin:90px auto 0; padding-bottom:30px}
