@@ -10020,3 +10020,514 @@ INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
 ERR: 无法加载模块:Favicon.ico
 
+[ 2013-06-18T17:09:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:14+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:17+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:19+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:19+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:19+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:21+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:21+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:22+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:22+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:23+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:52+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:09:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:09:54+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:13:29+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:13:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:13:43+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:13:43+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:17:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:17:42+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:17:42+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:22:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:22:53+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:23:23+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEjlFB6CPX7dD0%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 27 )  [ RunTime:0.023001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 34 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 317 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 409 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 427 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 484 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 648 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 728 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 735 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 872 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1085 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1095 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1246 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1247 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1248 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1251 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1272 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1274 )  [ RunTime:0.000000s ]
+
+[ 2013-06-18T17:23:23+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'iphone' )  [ RunTime:0.001001s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 1 ) [ RunTime:0.048002s ]
+NOTIC: [8] Undefined index: title D:\www\test\PHP\NS\App\Runtime\Temp\Web\Index\88746e29a99b881ccc374f81d537c65f6d550627.file.header.tpl.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object D:\www\test\PHP\NS\App\Runtime\Temp\Web\Index\88746e29a99b881ccc374f81d537c65f6d550627.file.header.tpl.php 第 31 行.
+
+[ 2013-06-18T17:23:23+08:00 ] 127.0.0.1 /images/bbsbg.png?t=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2013-06-18T17:23:23+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:24:16+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTxFbRd3FBu7V7fawNztlN2A%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 12 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 21 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 22 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 30 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 31 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 32 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 35 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 39 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 45 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 48 )  [ RunTime:0.000000s ]
+
+[ 2013-06-18T17:24:16+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.001001s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.035002s ]
+NOTIC: [8] Undefined index: title D:\www\test\PHP\NS\App\Runtime\Temp\Web\Index\88746e29a99b881ccc374f81d537c65f6d550627.file.header.tpl.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object D:\www\test\PHP\NS\App\Runtime\Temp\Web\Index\88746e29a99b881ccc374f81d537c65f6d550627.file.header.tpl.php 第 31 行.
+
+[ 2013-06-18T17:24:16+08:00 ] 127.0.0.1 /images/bbsbg.png?t=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2013-06-18T17:24:16+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:24:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:24:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:34:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-06-18T17:35:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.067004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.067004s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:35:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:35:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:35:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:35:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:35:48+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-18T17:35:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-18T17:35:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:35:52+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjsA20eFgpqRqqrOe9TeI1xSMa38ojfWJcrHwQNBwDWH7H5oWJGkMArI%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [8] Undefined index: matches D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.019001s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-18T17:35:52+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'hhhh' )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `ns_keywords` (`keyword`,`nums`,`create_time`) VALUES ('hhhh',1,UNIX_TIMESTAMP()) [ RunTime:0.020001s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 61 行.
+NOTIC: [8] Undefined index: title D:\www\test\PHP\NS\App\Runtime\Temp\Web\Index\88746e29a99b881ccc374f81d537c65f6d550627.file.header.tpl.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object D:\www\test\PHP\NS\App\Runtime\Temp\Web\Index\88746e29a99b881ccc374f81d537c65f6d550627.file.header.tpl.php 第 31 行.
+
+[ 2013-06-18T17:35:52+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:36:03+08:00 ] 127.0.0.1 /index/search?q=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-18T17:36:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2013-06-18T17:36:03+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:37:38+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2013-06-18T17:37:38+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-18T17:37:38+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+

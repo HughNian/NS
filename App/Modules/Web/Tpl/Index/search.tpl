@@ -36,17 +36,7 @@
 				 </dd>
             </dl>
             <div class="pure-paginator" style="float:left;margin-left:70px;">
-				<a class="pure-button prev" href="?words=g&amp;pge=1">1</a>
-				<a class="pure-button" href="?words=g&amp;pge=2">2</a>
-				<a class="pure-button" href="?words=g&amp;pge=3">3</a>
-				<a class="pure-button" href="?words=g&amp;pge=4">4</a>
-				<a class="pure-button" href="?words=g&amp;pge=5">5</a>
-				<a class="pure-button" href="?words=g&amp;pge=6">6</a>
-				<a class="pure-button" href="?words=g&amp;pge=7">7</a>
-				<a class="pure-button" href="?words=g&amp;pge=8">8</a>
-				<a class="pure-button" href="?words=g&amp;pge=9">9</a>
-				<a class="pure-button" href="?words=g&amp;pge=10">10</a>
-				<a class="pure-button next" id="next" href="?words=g&amp;pge=2">next &gt;</a>
+				<!--{$pagination}-->
 			</div>
 		    <!--{else}-->
 			    <dd id="zhaiyao">

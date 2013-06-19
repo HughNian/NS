@@ -28,8 +28,8 @@ class IndexAction extends WebAction
     	$keyword = InputWeb::deleteHtmlTags($keyword);
     	$keyword = trim($keyword);
     	$page    = $this->_param('pn');
-    	$offset  = 0;
-    	$limit   = 20;
+    	$offset  = $page == "" ? 0 : ($page-1)*10;
+    	$limit   = 10;
     	
     	/***搜索需要的参数值形式
     	$crypt  = new TripleDesCrypt(C('API_KEY'), C('API_IV'), false);
@@ -59,12 +59,22 @@ class IndexAction extends WebAction
     	//if(count($datas['internal']) == 0)  $this->error('Sphinx Server Does not Open!', '/');
     	
     	$totalnum = $datas['internal']['total'];
+    	$this->_view->_assign('totalnum', $totalnum);
     	unset($datas['internal']['total']);
     	$real_datas = $datas['internal'];
     	
+    	//分页
+    	$Page = new PageWeb($totalnum, 10, "q=$keyword");
+    	$Page->setConfig('header', '');
+    	$Page->setConfig('last', '');
+    	$Page->setConfig('theme', '%upPage% %downPage% %first%  %prePage%  %linkPage%  %nextPage% %end%');
+    	$Page->setRollPage(10);
+    	$Page->setUrl('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PATH_INFO'] . "?");
+    	$pagination = $Page->show(); 
+    	
     	$this->_view->_assign('keyword', $keyword);
-    	$this->_view->_assign('totalnum', $totalnum);
     	$this->_view->_assign('real_datas', $real_datas);
+    	$this->_view->_assign('pagination', $pagination);
     	$this->_view->_display('search.tpl');
     }
 }

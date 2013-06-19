@@ -27,4 +27,5 @@ return array(
 	'SPHINX_PORT'               =>  9312,                                         //sphinx搜索引擎服务器端口号
 	'SPHINX_IP'                 =>  '127.0.0.1',                                  //sphinx搜索引擎服务器ip
 	'API_SEARCH_URL'            =>  'http://www.ns.com/api/search/get.json',      //搜索api链接,json格式返回
+	'VAR_PAGE'                  =>  'pn',                                         //分页参数名
 );

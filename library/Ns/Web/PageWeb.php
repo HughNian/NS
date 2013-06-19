@@ -19,7 +19,8 @@ class PageWeb
     protected $coolPages   ;
     // 分页显示定制
     protected $config  =	array('header'=>'条记录','prev'=>'上一页','next'=>'下一页','first'=>'第一页','last'=>'最后一页','theme'=>' %totalRow% %header% %nowPage%/%totalPage% 页 %upPage% %downPage% %first%  %prePage%  %linkPage%  %nextPage% %end%');
-
+    
+    protected $url     = '';
     /**
      +----------------------------------------------------------
      * 架构函数
@@ -51,7 +52,21 @@ class PageWeb
             $this->config[$name]    =   $value;
         }
     }
-
+	
+    public function setRollPage($num)
+    {
+    	$this->rollPage = $num;
+    }
+    
+    public function setUrl($url = null)
+    {
+    	if($url == null) {
+    		$this->url = $_SERVER['REQUEST_URI'].(strpos($_SERVER['REQUEST_URI'],'?')?'':"?").$this->parameter;
+    	} else {
+    		$this->url = $url . $this->parameter;
+    	}
+    }
+    
     /**
      +----------------------------------------------------------
      * 分页显示输出
@@ -63,7 +78,7 @@ class PageWeb
         if(0 == $this->totalRows) return '';
         $p = C('VAR_PAGE');
         $nowCoolPage      = ceil($this->nowPage/$this->rollPage);
-        $url  =  $_SERVER['REQUEST_URI'].(strpos($_SERVER['REQUEST_URI'],'?')?'':"?").$this->parameter;
+        $url  =  $this->url;
         $parse = parse_url($url);
         if(isset($parse['query'])) {
             parse_str($parse['query'],$params);
@@ -74,13 +89,13 @@ class PageWeb
         $upRow   = $this->nowPage-1;
         $downRow = $this->nowPage+1;
         if ($upRow>0){
-            $upPage="<a href='".$url."&".$p."=$upRow'>".$this->config['prev']."</a>";
+            $upPage="<a href='".$url."&".$p."=$upRow' class='pure-button next'>".$this->config['prev']."</a>";
         }else{
             $upPage="";
         }
 
         if ($downRow <= $this->totalPages){
-            $downPage="<a href='".$url."&".$p."=$downRow'>".$this->config['next']."</a>";
+            $downPage="<a href='".$url."&".$p."=$downRow' class='pure-button next'>".$this->config['next']."</a>";
         }else{
             $downPage="";
         }
@@ -90,8 +105,8 @@ class PageWeb
             $prePage = "";
         }else{
             $preRow =  $this->nowPage-$this->rollPage;
-            $prePage = "<a href='".$url."&".$p."=$preRow' >上".$this->rollPage."页</a>";
-            $theFirst = "<a href='".$url."&".$p."=1' >".$this->config['first']."</a>";
+            $prePage = "<a href='".$url."&".$p."=$preRow' class='pure-button'>上".$this->rollPage."页</a>";
+            $theFirst = "<a href='".$url."&".$p."=1' class='pure-button prev'>".$this->config['first']."</a>";
         }
         if($nowCoolPage == $this->coolPages){
             $nextPage = "";
@@ -99,8 +114,8 @@ class PageWeb
         }else{
             $nextRow = $this->nowPage+$this->rollPage;
             $theEndRow = $this->totalPages;
-            $nextPage = "<a href='".$url."&".$p."=$nextRow' >下".$this->rollPage."页</a>";
-            $theEnd = "<a href='".$url."&".$p."=$theEndRow' >".$this->config['last']."</a>";
+            $nextPage = "<a href='".$url."&".$p."=$nextRow' class='pure-button next' >下".$this->rollPage."页</a>";
+            $theEnd = "<a href='".$url."&".$p."=$theEndRow'>".$this->config['last']."</a>";
         }
         // 1 2 3 4 5
         $linkPage = "";
@@ -108,13 +123,14 @@ class PageWeb
             $page=($nowCoolPage-1)*$this->rollPage+$i;
             if($page!=$this->nowPage){
                 if($page<=$this->totalPages){
-                    $linkPage .= "&nbsp;<a href='".$url."&".$p."=$page'>&nbsp;".$page."&nbsp;</a>";
+                    $linkPage .= "&nbsp;<a href='".$url."&".$p."=$page' class='pure-button'>&nbsp;".$page."&nbsp;</a>";
                 }else{
                     break;
                 }
             }else{
                 if($this->totalPages != 1){
-                    $linkPage .= "&nbsp;<span class='current'>".$page."</span>";
+                    //$linkPage .= "&nbsp;<span class='current'>".$page."</span>";
+                	$linkPage .= "&nbsp;<a class='pure-button prev'>".$page."</a>";
                 }
             }
         }

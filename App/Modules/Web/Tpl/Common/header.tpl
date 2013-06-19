@@ -13,9 +13,9 @@
   <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/dio4llx.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript">/*try{Typekit.load();}catch(e){}*/</script>
  </head>
  <style type="text/css">
-	html  {font-family: "museo-slab"; font-style:normal;font-weight:100;}
-	h1,h2 {font-weight:100;}
+	html {font-family: "museo-300";}
+	h1,h2 {font-family: "museo-300"; font-weight:100;}
  </style>

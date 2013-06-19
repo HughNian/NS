@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2013-06-18 11:14:54
+<?php /* Smarty version Smarty-3.1.6, created on 2013-06-19 09:47:55
          compiled from "D:\www\test\PHP\NS\App\Modules/Web/Tpl/Index\search.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2437151bae5e4affd05-35233344%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '28427cdf24821b460637f2adfdeea31fc2b2a527' => 
     array (
       0 => 'D:\\www\\test\\PHP\\NS\\App\\Modules/Web/Tpl/Index\\search.tpl',
-      1 => 1371525292,
+      1 => 1371606460,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'totalnum' => 0,
     'real_datas' => 0,
     'val' => 0,
+    'pagination' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -80,17 +81,8 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
 				 </dd>
             </dl>
             <div class="pure-paginator" style="float:left;margin-left:70px;">
-				<a class="pure-button prev" href="?words=g&amp;pge=1">1</a>
-				<a class="pure-button" href="?words=g&amp;pge=2">2</a>
-				<a class="pure-button" href="?words=g&amp;pge=3">3</a>
-				<a class="pure-button" href="?words=g&amp;pge=4">4</a>
-				<a class="pure-button" href="?words=g&amp;pge=5">5</a>
-				<a class="pure-button" href="?words=g&amp;pge=6">6</a>
-				<a class="pure-button" href="?words=g&amp;pge=7">7</a>
-				<a class="pure-button" href="?words=g&amp;pge=8">8</a>
-				<a class="pure-button" href="?words=g&amp;pge=9">9</a>
-				<a class="pure-button" href="?words=g&amp;pge=10">10</a>
-				<a class="pure-button next" id="next" href="?words=g&amp;pge=2">next &gt;</a>
+				<?php echo $_smarty_tpl->tpl_vars['pagination']->value;?>
+
 			</div>
 		    <?php }else{ ?>
 			    <dd id="zhaiyao">

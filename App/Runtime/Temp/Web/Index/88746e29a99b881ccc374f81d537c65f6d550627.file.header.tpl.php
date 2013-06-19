@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2013-06-18 16:49:09
+<?php /* Smarty version Smarty-3.1.6, created on 2013-06-19 08:56:38
          compiled from "D:\www\test\PHP\NS\App\Modules\Web\Tpl\Common\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2815651a6f0ee256c60-58073137%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '88746e29a99b881ccc374f81d537c65f6d550627' => 
     array (
       0 => 'D:\\www\\test\\PHP\\NS\\App\\Modules\\Web\\Tpl\\Common\\header.tpl',
-      1 => 1371545319,
+      1 => 1371603396,
       2 => 'file',
     ),
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/dio4llx.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript">/*try{Typekit.load();}catch(e){}*/</script>
  </head>
  <style type="text/css">
-	html  {font-family: "museo-slab"; font-style:normal;font-weight:100;}
-	h1,h2 {font-weight:100;}
+	html {font-family: "museo-300";}
+	h1,h2 {font-family: "museo-300"; font-weight:100;}
  </style><?php }} ?>
