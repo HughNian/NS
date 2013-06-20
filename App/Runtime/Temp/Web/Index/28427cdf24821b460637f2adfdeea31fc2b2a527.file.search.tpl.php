@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2013-06-19 09:47:55
+<?php /* Smarty version Smarty-3.1.6, created on 2013-06-20 17:52:39
          compiled from "D:\www\test\PHP\NS\App\Modules/Web/Tpl/Index\search.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2437151bae5e4affd05-35233344%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '28427cdf24821b460637f2adfdeea31fc2b2a527' => 
     array (
       0 => 'D:\\www\\test\\PHP\\NS\\App\\Modules/Web/Tpl/Index\\search.tpl',
-      1 => 1371606460,
+      1 => 1371721957,
       2 => 'file',
     ),
   ),
@@ -21,9 +21,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'keyword' => 0,
     'totalnum' => 0,
+    'total_found' => 0,
     'real_datas' => 0,
     'val' => 0,
     'pagination' => 0,
+    'likekeyword' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -35,6 +37,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	a:hover {text-decoration:none;}
 </style>
 <body>
+<div id="wrapper">
+	<!----{顶部搜索框}---->
 	<div class="searchbox clearfix">
         <a href="/" class="fl ml15"><h1><font color="#6E329D">Seek About</font></h1></a>
         <div class="search fl " id="search-result-bar">
@@ -44,11 +48,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<button type="submit" class="pure-button pure-button-primary" style="float:left;height:35px;margin-left:5px;">Search</button>
             </form>
         </div>
-		<div class="advance fl" style="padding-left:20px;">
-		</div>
-		 <?php if ($_smarty_tpl->tpl_vars['totalnum']->value!=0){?><p class="search-result-num">找到约<?php echo $_smarty_tpl->tpl_vars['totalnum']->value;?>
+		<div class="advance fl" style="padding-left:20px;"></div>
+		 <?php if ($_smarty_tpl->tpl_vars['totalnum']->value!=0){?><p class="search-result-num">找到约<?php echo $_smarty_tpl->tpl_vars['total_found']->value;?>
 条结果</p><?php }?>
     </div>
+    
+    <!---{搜索结果}---->
     <div class="clearfix" id="result">
         <div class="fl" id="main" style="float:left;margin-left:-45px;">
         	<?php if ($_smarty_tpl->tpl_vars['totalnum']->value!=0){?>
@@ -93,6 +98,8 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
 		        </dd>
 	        <?php }?>
         </div>
+        
+        <!---{右侧广告显示}--->
         <div class="fl w252" id="search_result">
         	<div class="adv200x150">
 				<ul>
@@ -115,6 +122,36 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
                 </dd>
                 <dd class="line"></dd>
             </dl>
+       </div>
+    </div>
+    
+    <!----{相关搜索结果}---->
+    <div class="clearfix" id="relate" style="width:1850px; float:left;margin-left:-160px;">
+    	<div class="field fl" style="float:left;">相关搜索：</div>
+        <div class="fl relatec" id="relatec" style="float:left;">
+        	<?php  $_smarty_tpl->tpl_vars['val'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val']->_loop = false;
+ $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['likekeyword']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['val']->key => $_smarty_tpl->tpl_vars['val']->value){
+$_smarty_tpl->tpl_vars['val']->_loop = true;
+ $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['val']->key;
+?>
+        		<span><a href="/index/search/?q=<?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
+"><?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
+</a></span>
+        	<?php } ?>
         </div>
     </div>
+    
+    <!----{底部搜索框}---->
+    <div class="searchbox-foot" style="width:1850px; float:left; margin-left:25px;">
+		<form method="get" action="/index/search" onsubmit="return searchutil.format();">
+            <input type="text" name="q" value="<?php echo $_smarty_tpl->tpl_vars['keyword']->value;?>
+" class="pure-input-rounded" style="float:left;width:490px;height:25px;" autofocus="true" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" aria-haspopup="true" aria-combobox="list" role="combobox">
+			<button type="submit" class="pure-button pure-button-primary" style="float:left;height:35px;margin-left:5px;">Search</button>
+        </form>
+    </div>
+    
+    <div style="float:left; margin-left:25px; margin-top:10px;">&copy;niansong-2013, this is a sphinx beta demo website, thank you for use it</div>
+</div>
 </body><?php }} ?>

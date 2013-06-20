@@ -29,4 +29,14 @@ class KeyWordsModel extends WebModel
 		//echo $this->getLastSql();exit;
 		return $ret;
 	}
+	
+	public function getLikeKeyword($keyword)
+	{
+		$where['nums']    = array('gt', '10');
+		$where['keyword'] = array('not in', $keyword);
+		$where['_string'] = sprintf("keyword like '%%%s%%'", $keyword);
+		$ret = $this->where($where)->field('keyword')->select();
+		//echo $this->getLastSql();exit;
+		return $ret;
+	}
 }

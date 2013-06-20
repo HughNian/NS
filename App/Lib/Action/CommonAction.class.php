@@ -335,4 +335,33 @@ class CommonAction extends AbstractAction
             }
         }
     }
+    
+    /**
+     * 分页类公共方法
+     * 
+     * @param  int     $total      - 总纪录数
+     * @param  int     $shownum    - 每页显示个数
+     * @param  string  $params     - 分页url所带参数
+     * @param  string  $url        - 分页链接
+     * @param  int     $type       - 分页显示类型，1为简约型，2原类型
+     * @return string  $pagination - 显示的分页条
+     * @throws Exception
+     */
+    public function Page($total, $shownum, $params, $url, $type=1)
+    {
+    	if(!is_nan($total) && !is_nan($shownum) && is_string($params)) {
+    		$Page = new PageWeb($total, $shownum, $params);
+    		if($type == 1) {
+    			$Page->setConfig('header', '');
+    			$Page->setConfig('last', '');
+    			$Page->setConfig('theme', '%upPage% %linkPage% %downPage%');//设置分页条显示样式
+    			$Page->setRollPage(10);
+    		}
+    		$Page->setUrl($url);
+    		$pagination = $Page->show();
+    		return $pagination;
+    	} else {
+    		throw new Exception('Page function params are wrong!');
+    	}
+    }
 }

@@ -9,7 +9,7 @@ class ProductModel extends WebModel
 		$real_data = array();
 		if(count($ids) != 0) {
 			foreach($ids as $key => $id) {
-				$datas[] = $this->where('id = ' . $id)->select(array('title','des','price'));
+				$datas[] = $this->where('id = ' . $id)->select();
 			}
 			//echo $this->getLastSql();exit;
 			return $datas;

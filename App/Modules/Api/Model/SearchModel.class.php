@@ -45,8 +45,9 @@ class SearchModel extends ApiModel
 		
 		foreach($datas as $key => $val) {
 			foreach($val[0] as $k => $v) {
-				$real_data[$key][$k] = $this->_sphinx->buildExcerpts(array($v), 'mysql', $query, $opts);
-				$real_data['total']  = $result['total'];
+				$real_data[$key][$k]  = $this->_sphinx->buildExcerpts(array($v), 'mysql', $query, $opts);
+				$real_data['total']   = $result['total'];
+				$real_data['total_found'] = $result['total_found'];
 			}
 		}
 		

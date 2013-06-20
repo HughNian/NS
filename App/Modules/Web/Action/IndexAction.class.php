@@ -23,10 +23,12 @@ class IndexAction extends WebAction
     	$url     = C('API_SEARCH_URL');
     	$crypt   = new TripleDesCrypt(C('API_KEY'), C('API_IV'), false);
     	$sphinx  = new SphinxDriver();
+    	$keyword_model = new KeyWordsModel();
     	
     	$keyword = InputWeb::safeHtml($this->_param('q'));
     	$keyword = InputWeb::deleteHtmlTags($keyword);
     	$keyword = trim($keyword);
+    	$keyword = Utility::h($keyword);
     	$page    = $this->_param('pn');
     	$offset  = $page == "" ? 0 : ($page-1)*10;
     	$limit   = 10;
@@ -45,8 +47,9 @@ class IndexAction extends WebAction
     	}
     	
     	/**处理keyword**/
-    	$keyword_model = new KeyWordsModel();
-    	$ret = $keyword_model->addKeyWord($keyword);
+    	if($page == "") {
+    		$ret = $keyword_model->addKeyWord($keyword);
+    	}
     	
     	//KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEjlFB6CPX7dD0%3D,keyword:iphone;
     	//内部发送http请求接口
@@ -58,23 +61,27 @@ class IndexAction extends WebAction
     	
     	//if(count($datas['internal']) == 0)  $this->error('Sphinx Server Does not Open!', '/');
     	
-    	$totalnum = $datas['internal']['total'];
+    	$totalnum    = $datas['internal']['total'];
+    	$total_found = $datas['internal']['total_found'];
     	$this->_view->_assign('totalnum', $totalnum);
-    	unset($datas['internal']['total']);
-    	$real_datas = $datas['internal'];
+    	$this->_view->_assign('total_found', $total_found);
     	
     	//分页
-    	$Page = new PageWeb($totalnum, 10, "q=$keyword");
-    	$Page->setConfig('header', '');
-    	$Page->setConfig('last', '');
-    	$Page->setConfig('theme', '%upPage% %downPage% %first%  %prePage%  %linkPage%  %nextPage% %end%');
-    	$Page->setRollPage(10);
-    	$Page->setUrl('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PATH_INFO'] . "?");
-    	$pagination = $Page->show(); 
+    	$pagination = $this->Page($totalnum, 10, "q=$keyword", 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PATH_INFO'] . "?");
+    	
+    	unset($datas['internal']['total']);
+    	unset($datas['internal']['total_found']);
+    	$real_datas  = $datas['internal'];
+    	
+    	//相关搜索
+    	$likekeyword  = $keyword_model->getLikeKeyword($keyword);
+    	$likekeyword  = array_slice($likekeyword, 0, 10);
     	
     	$this->_view->_assign('keyword', $keyword);
     	$this->_view->_assign('real_datas', $real_datas);
     	$this->_view->_assign('pagination', $pagination);
+    	$this->_view->_assign('likekeyword', $likekeyword);
+    	$this->_view->_assign('title', C('WEB_TITLE'));
     	$this->_view->_display('search.tpl');
     }
 }
