@@ -20,7 +20,7 @@ return array(
     'SHOW_PAGE_TRACE'           =>  0,                                            //显示调试信息 
     'APP_AUTOLOAD_PATH'         =>  '@.TagLib',
 	'TMPL_CACHE_ON'             =>  1,                                            //是否开启模板缓存
-	'WEB_TITLE'                 =>  'Seek About',                                   //全站title名
+	'WEB_TITLE'                 =>  'Seek About',                                 //全站title名
 	'API_KEY'					=>  '2y14UjuWD6XzicGr27x2shSh',   				  //api加密key
 	'API_IV'                    =>  '12345678',                                   //api加密iv
 	'API_TYPE'                  =>  'json',                                       //默认api接口返回数据类型为json
@@ -28,4 +28,7 @@ return array(
 	'SPHINX_IP'                 =>  '127.0.0.1',                                  //sphinx搜索引擎服务器ip
 	'API_SEARCH_URL'            =>  'http://www.ns.com/api/search/get.json',      //搜索api链接,json格式返回
 	'VAR_PAGE'                  =>  'pn',                                         //分页参数名
+	'MEMCACHED_HOST'            =>  '127.0.0.1',                                  //memcached host ip
+	'MEMCACHED_PORT'            =>  11211,                                      //memcached port
+	'DATA_CACHE_TIME'           =>  '3600'
 );

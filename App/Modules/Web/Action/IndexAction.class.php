@@ -74,8 +74,7 @@ class IndexAction extends WebAction
     	$real_datas  = $datas['internal'];
     	
     	//相关搜索
-    	$likekeyword  = $keyword_model->getLikeKeyword($keyword);
-    	$likekeyword  = array_slice($likekeyword, 0, 10);
+    	$likekeyword  = $keyword_model->getLinkKeywords($keyword);
     	
     	$this->_view->_assign('keyword', $keyword);
     	$this->_view->_assign('real_datas', $real_datas);

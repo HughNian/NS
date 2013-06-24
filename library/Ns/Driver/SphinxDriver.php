@@ -102,7 +102,7 @@ class SphinxDriver extends SphinxClient
 	 */
 	public function D_Query($query, $index="*", $comment="")
 	{
-		$result = $this->Query($query, $index="*", $comment="");
+		$result = $this->Query($query, $index, $comment);
 		return $result;
 	}
 	

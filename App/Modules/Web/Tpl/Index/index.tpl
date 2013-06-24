@@ -1,5 +1,17 @@
 <!--{include file="../Common/header.tpl"}-->
 <body>
+	<div class="header pure-u-1">
+        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal" style="background:#333;">
+            <a class="pure-menu-heading" href="">Seek About</a>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit" style="background:#FFF;">

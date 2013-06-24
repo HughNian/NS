@@ -18,4 +18,5 @@
  <style type="text/css">
 	html {font-family: "museo-300";}
 	h1,h2 {font-family: "museo-300"; font-weight:100;}
+	a:hover {text-decoration:none; color:#333;}
  </style>

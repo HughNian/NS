@@ -28,7 +28,7 @@ class SearchModel extends ApiModel
 		$this->_sphinx->D_SetFieldWeights (array('title'=>1,'desc'=>2,'price'=>3));//设置字段的权重
 		$this->_sphinx->D_SetSortMode ('SPH_SORT_EXPR','@weight');//按照权重排序
 		$this->_sphinx->D_SetLimits ($offset, $limit);
-		$result = $this->searchResult($query, "*");
+		$result = $this->searchResult($query, "product");
 		foreach($result['matches'] as $key => $val) {
 			static $ids = array();
 			$ids[]      = $val['id'];
@@ -45,7 +45,7 @@ class SearchModel extends ApiModel
 		
 		foreach($datas as $key => $val) {
 			foreach($val[0] as $k => $v) {
-				$real_data[$key][$k]  = $this->_sphinx->buildExcerpts(array($v), 'mysql', $query, $opts);
+				$real_data[$key][$k]  = $this->_sphinx->buildExcerpts(array($v), 'product', $query, $opts);
 				$real_data['total']   = $result['total'];
 				$real_data['total_found'] = $result['total_found'];
 			}

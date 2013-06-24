@@ -1,7 +1,14 @@
 <?php
 class CommonModel extends Model
 {
-
+	protected $_memcached = null;
+	
+	public function __constrcut()
+	{
+		parent::__construct();
+		$this->_memcached = new CacheMemcache(array('host'=>C('MEMCACHED_HOST'), 'port'=>C('MEMCACHED_PORT'), 'timeout'=>C('DATA_CACHE_TIME')));
+	}
+	
 	// 获取当前用户的ID
     public function getMemberId()
     {
@@ -94,5 +101,4 @@ class CommonModel extends Model
             return True;
         }
     }
-
 }

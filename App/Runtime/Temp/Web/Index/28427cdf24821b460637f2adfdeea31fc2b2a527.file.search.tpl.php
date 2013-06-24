@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2013-06-20 17:52:39
+<?php /* Smarty version Smarty-3.1.6, created on 2013-06-21 10:44:03
          compiled from "D:\www\test\PHP\NS\App\Modules/Web/Tpl/Index\search.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2437151bae5e4affd05-35233344%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '28427cdf24821b460637f2adfdeea31fc2b2a527' => 
     array (
       0 => 'D:\\www\\test\\PHP\\NS\\App\\Modules/Web/Tpl/Index\\search.tpl',
-      1 => 1371721957,
+      1 => 1371782640,
       2 => 'file',
     ),
   ),
@@ -26,6 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'val' => 0,
     'pagination' => 0,
     'likekeyword' => 0,
+    'key' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -39,7 +40,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <body>
 <div id="wrapper">
 	<!----{顶部搜索框}---->
-	<div class="searchbox clearfix">
+	<div class="searchbox clearfix" style="width:100%;">
         <a href="/" class="fl ml15"><h1><font color="#6E329D">Seek About</font></h1></a>
         <div class="search fl " id="search-result-bar">
             <form method="get" action="/index/search" onsubmit="return searchutil.format();">
@@ -126,7 +127,7 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
     </div>
     
     <!----{相关搜索结果}---->
-    <div class="clearfix" id="relate" style="width:1850px; float:left;margin-left:-160px;">
+    <div class="clearfix" id="relate" style="width:100%; float:left;margin-left:-160px;">
     	<div class="field fl" style="float:left;">相关搜索：</div>
         <div class="fl relatec" id="relatec" style="float:left;">
         	<?php  $_smarty_tpl->tpl_vars['val'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['val']->_loop = false;
@@ -136,15 +137,21 @@ foreach ($_from as $_smarty_tpl->tpl_vars['val']->key => $_smarty_tpl->tpl_vars[
 $_smarty_tpl->tpl_vars['val']->_loop = true;
  $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['val']->key;
 ?>
-        		<span><a href="/index/search/?q=<?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
+        		<?php if ($_smarty_tpl->tpl_vars['key']->value==4){?>
+        			<span><a href="/index/search/?q=<?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
+"><?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
+</a></span><br />
+        		<?php }else{ ?>
+        			<span><a href="/index/search/?q=<?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
 "><?php echo $_smarty_tpl->tpl_vars['val']->value['keyword'];?>
 </a></span>
+        		<?php }?>
         	<?php } ?>
         </div>
     </div>
     
     <!----{底部搜索框}---->
-    <div class="searchbox-foot" style="width:1850px; float:left; margin-left:25px;">
+    <div class="searchbox-foot" style="width:100%; float:left; margin-left:25px;">
 		<form method="get" action="/index/search" onsubmit="return searchutil.format();">
             <input type="text" name="q" value="<?php echo $_smarty_tpl->tpl_vars['keyword']->value;?>
 " class="pure-input-rounded" style="float:left;width:490px;height:25px;" autofocus="true" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" aria-haspopup="true" aria-combobox="list" role="combobox">
@@ -152,6 +159,7 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
         </form>
     </div>
     
-    <div style="float:left; margin-left:25px; margin-top:10px;">&copy;niansong-2013, this is a sphinx beta demo website, thank you for use it</div>
+    <!---{底部版权信息}---->
+    <div style="float:left; margin-left:25px; margin-top:10px;">&copy;niansong-2013, this is a sphinx test demo website, thank you for use it</div>
 </div>
 </body><?php }} ?>
