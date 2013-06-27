@@ -4,6 +4,17 @@
 	a:hover {text-decoration:none;}
 </style>
 <body>
+<div class="header pure-u-1" style="margin-bottom:25px;">
+        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal" style="background:#333;">
+            <a class="pure-menu-heading" href="">Seek About</a>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+</div>
 <div id="wrapper">
 	<!----{顶部搜索框}---->
 	<div class="searchbox clearfix" style="width:100%;">
@@ -31,7 +42,7 @@
 									<!--{$val.des.0}-->
 								</li>
 		                        <li class="author">
-		                        	<span><!--{$val.url.0}--> 发表于 <!--{$val.create_time.0|date_format:"%Y-%m-%d %H:%M:%S"}--></span>
+		                        	<span><!--{$val.url.0|truncate:75:'....':true}--> 发表于 <!--{$val.create_time.0|date_format:"%Y-%m-%d %H:%M:%S"}--></span>
 		                            <span id="score">价格:<!--{$val.price.0}--></span>
 		                        </li>
 		                    </ul>

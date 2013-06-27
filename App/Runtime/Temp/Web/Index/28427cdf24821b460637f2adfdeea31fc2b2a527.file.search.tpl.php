@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2013-06-21 10:44:03
+<?php /* Smarty version Smarty-3.1.6, created on 2013-06-27 10:18:14
          compiled from "D:\www\test\PHP\NS\App\Modules/Web/Tpl/Index\search.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2437151bae5e4affd05-35233344%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '28427cdf24821b460637f2adfdeea31fc2b2a527' => 
     array (
       0 => 'D:\\www\\test\\PHP\\NS\\App\\Modules/Web/Tpl/Index\\search.tpl',
-      1 => 1371782640,
+      1 => 1372299081,
       2 => 'file',
     ),
   ),
@@ -30,7 +30,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51bae5e4b9442')) {function content_51bae5e4b9442($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'D:\\www\\test\\PHP\\NS\\library\\Ns\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_51bae5e4b9442')) {function content_51bae5e4b9442($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'D:\\www\\test\\PHP\\NS\\library\\Ns\\Vendor\\Smarty\\plugins\\modifier.truncate.php';
+if (!is_callable('smarty_modifier_date_format')) include 'D:\\www\\test\\PHP\\NS\\library\\Ns\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
 ?><?php echo $_smarty_tpl->getSubTemplate ("../Common/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <style type="text/css">
@@ -38,6 +39,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	a:hover {text-decoration:none;}
 </style>
 <body>
+<div class="header pure-u-1" style="margin-bottom:25px;">
+        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal" style="background:#333;">
+            <a class="pure-menu-heading" href="">Seek About</a>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+</div>
 <div id="wrapper">
 	<!----{顶部搜索框}---->
 	<div class="searchbox clearfix" style="width:100%;">
@@ -76,7 +88,7 @@ $_smarty_tpl->tpl_vars['val']->_loop = true;
 
 								</li>
 		                        <li class="author">
-		                        	<span><?php echo $_smarty_tpl->tpl_vars['val']->value['url'][0];?>
+		                        	<span><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['val']->value['url'][0],75,'....',true);?>
  发表于 <?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['val']->value['create_time'][0],"%Y-%m-%d %H:%M:%S");?>
 </span>
 		                            <span id="score">价格:<?php echo $_smarty_tpl->tpl_vars['val']->value['price'][0];?>

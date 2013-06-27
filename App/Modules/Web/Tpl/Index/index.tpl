@@ -5,7 +5,7 @@
             <a class="pure-menu-heading" href="">Seek About</a>
 
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
                 <li><a href="#">Tour</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>

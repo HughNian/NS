@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2013-06-21 11:17:55
+<?php /* Smarty version Smarty-3.1.6, created on 2013-06-27 10:21:05
          compiled from "D:\www\test\PHP\NS\App\Modules/Web/Tpl/Index\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2430351a6f0edf2be57-15964562%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6128a119343ebe5906810b2944a77a1d465a3928' => 
     array (
       0 => 'D:\\www\\test\\PHP\\NS\\App\\Modules/Web/Tpl/Index\\index.tpl',
-      1 => 1371784673,
+      1 => 1372299078,
       2 => 'file',
     ),
   ),
@@ -27,7 +27,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a class="pure-menu-heading" href="">Seek About</a>
 
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
                 <li><a href="#">Tour</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>

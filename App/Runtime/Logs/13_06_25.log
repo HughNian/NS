@@ -1,0 +1,2882 @@
+[ 2013-06-25T08:53:42+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039002s ]
+
+[ 2013-06-25T08:53:43+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2013-06-25T10:51:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.021001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:18+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 7 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 10 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 12 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 16 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 21 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 22 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:51:18+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.030002s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.165010s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 6 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.011001s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 90 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 91 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 3 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 92 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 93 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 94 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 97 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 7 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 98 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 7 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 8 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 99 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 9 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T10:51:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:22+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 12 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 21 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 22 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:51:22+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.035002s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+
+[ 2013-06-25T10:51:22+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T10:51:26+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:37+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEj%2FR8Tu7jzAGg%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 27 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 34 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 317 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 409 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 427 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 484 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 648 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 728 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 735 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:51:37+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'iphone' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 1 ) [ RunTime:0.033002s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 1 AND nums > 10 AND `keyword` NOT IN ("iphone") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T10:51:37+08:00 ] 127.0.0.1 /images/bbsbg.png?t=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2013-06-25T10:51:37+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:45+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 12 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 21 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 22 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:51:45+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.029002s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+
+[ 2013-06-25T10:51:45+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:52+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2FvvG%2Fqap5U%2F0ImuXV8x17DF4EBzZWVrDhQVwZ8KdGQn2WSxaZfm7fCg%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 6 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 8 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 10 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:51:52+08:00 ] 127.0.0.1 /index/search?q=%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 96 ) [ RunTime:0.030001s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 96 AND nums > 10 AND `keyword` NOT IN ("手机") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 98 AND nums > 10 AND `keyword` NOT IN ("手机") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T10:51:52+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:51:55+08:00 ] 127.0.0.1 /index/search?q=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T10:51:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2013-06-25T10:51:55+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:52:01+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjjUjKy%2FE8yHdwtly%2BkVqj3OpiVAoI1FI0F2%2FsSZuBtD4M8b4rPGpr9U%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [8] Undefined index: matches D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-25T10:52:01+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'sansung' )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `ns_keywords` (`keyword`,`nums`,`create_time`) VALUES ('sansung',1,UNIX_TIMESTAMP()) [ RunTime:0.033001s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+NOTIC: [8] Undefined index: matches D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 62 行.
+
+[ 2013-06-25T10:52:01+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:52:18+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEj%2FR8Tu7jzAGg%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 27 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 34 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 317 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 409 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 427 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 484 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 648 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 728 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 735 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:52:18+08:00 ] 127.0.0.1 /index/search?q=iphone
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'iphone' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 1 ) [ RunTime:0.028002s ]
+
+[ 2013-06-25T10:52:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:54:43+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEj%2FR8Tu7jzAGg%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 8930 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15775 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15848 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17324 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17400 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23828 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23838 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23839 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24989 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:54:43+08:00 ] 127.0.0.1 /index/search?q=iphone
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'iphone' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 1 ) [ RunTime:0.029002s ]
+
+[ 2013-06-25T10:54:43+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:54:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2013-06-25T10:54:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:54:53+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEj%2FR8Tu7jzAGg%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 8930 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15775 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15848 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17324 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17400 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23828 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23838 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23839 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24989 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 47 行.
+
+[ 2013-06-25T10:54:53+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'iphone' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 1 ) [ RunTime:0.042002s ]
+
+[ 2013-06-25T10:54:53+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:55:04+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.035002s ]
+NOTIC: [8] Trying to get property of non-object D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 60 行.
+NOTIC: [2] mdecrypt_generic(): An empty string was passed D:\www\test\PHP\NS\library\Ns\Crypt\TripleDesCrypt.php 第 59 行.
+
+[ 2013-06-25T10:55:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:55:07+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-25T10:55:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T10:55:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:55:18+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2FilLC1XjV%2BeW%2B%2FsQV6m5Pc1tSci%2FGePavJeEPRPDdsrY%2B753kzs0N9w%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-25T10:55:19+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '嘿嘿' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 100 ) [ RunTime:0.027002s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 62 行.
+
+[ 2013-06-25T10:55:19+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:55:24+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2FT0sFrx8eE0aR%2FZRRKxQ3PGxxaGjf3mQkIKri62PTNY1ue1iag7u4Eg%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-25T10:55:25+08:00 ] 127.0.0.1 /index/search?q=%E9%82%A3%E4%BD%A0
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '那你' )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `ns_keywords` (`keyword`,`nums`,`create_time`) VALUES ('那你',1,UNIX_TIMESTAMP()) [ RunTime:0.028002s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 62 行.
+
+[ 2013-06-25T10:55:25+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:55:27+08:00 ] 127.0.0.1 /index/search?q=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T10:55:27+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T10:55:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:55:54+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fpb1Mb2elhmtxxmnbmybp1kZehubbSir5cNlTciPdyI0Lsr%2F4CxZnog%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-25T10:55:55+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '呵呵' )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `ns_keywords` (`keyword`,`nums`,`create_time`) VALUES ('呵呵',1,UNIX_TIMESTAMP()) [ RunTime:0.027001s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 62 行.
+
+[ 2013-06-25T10:55:55+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T10:56:00+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2FogOsj8LX7tnS65xA2YObGYB34tBRckRh6mcXnh5KlorFkXyalEZvyg%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: ids D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Api\Model\SearchModel.class.php 第 46 行.
+
+[ 2013-06-25T10:56:01+08:00 ] 127.0.0.1 /index/search?q=%E8%80%B3%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '耳机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 55 ) [ RunTime:0.027002s ]
+NOTIC: [8] Undefined index: total D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 64 行.
+NOTIC: [8] Undefined index: total_found D:\www\test\PHP\NS\App\Modules\Web\Action\IndexAction.class.php 第 65 行.
+NOTIC: [2] fsockopen():  D:\www\test\PHP\NS\library\Ns\Vendor\Sphinx\Sphinxapi.php 第 582 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 62 行.
+
+[ 2013-06-25T10:56:02+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:01:22+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2013-06-25T11:01:23+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:05:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:05:10+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:05:14+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:05:14+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.022002s ]
+
+[ 2013-06-25T11:05:14+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:07:36+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVC0g11YvC6nbgq61wpeGCEj%2FR8Tu7jzAGg%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 19 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 135 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 443 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 631 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 634 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 676 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 696 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 821 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:07:36+08:00 ] 127.0.0.1 /index/search?q=iphone
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = 'iphone' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 1 ) [ RunTime:0.022002s ]
+
+[ 2013-06-25T11:07:36+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:07:40+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjrAdT1yIXd0brbRAnWS9ZVB1O8p6jh0Q5jAuZACekA%2B2AGM9%2Bo9LZAQ%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 936 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 940 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1096 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1180 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1215 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 105 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 861 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:07:40+08:00 ] 127.0.0.1 /index/search?q=iphone&pn=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T11:07:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:07:56+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fbw4xNEHyLu217%2FhqfM8INQQeFWgTPJkzRUAwlEQXmBaTThqqkFBhfw%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 12 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 18 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 23 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 28 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 30 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 34 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 62 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 64 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:07:56+08:00 ] 127.0.0.1 /index/search?q=%E5%8D%8E%E4%B8%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '华为' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 14 ) [ RunTime:0.029002s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 14 AND nums > 10 AND `keyword` NOT IN ("华为") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T11:07:57+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:07:59+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fbw4xNEHyLu217%2FhqfM8INW5e38Pf%2Bmg5lN9BP%2Byhjhpyd8gDifo3cQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 425 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 448 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 454 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 469 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 477 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 481 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 484 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 517 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 534 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 576 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:07:59+08:00 ] 127.0.0.1 /index/search?q=%E5%8D%8E%E4%B8%BA&pn=5
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.004000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T11:07:59+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:08:01+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fbw4xNEHyLu217%2FhqfM8INUS20bA6WZ5ssctW0IMzzZ3upIfBXX%2B0KQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 611 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 626 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 632 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 636 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 651 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 688 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 724 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 731 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 732 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 778 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:08:01+08:00 ] 127.0.0.1 /index/search?q=%E5%8D%8E%E4%B8%BA&pn=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T11:08:01+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:08:03+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fbw4xNEHyLu217%2FhqfM8INcwhwT4Ap4JeztC21XxKhAsqhzlcRvk5Cw%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 791 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 809 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 835 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 850 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 855 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 874 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 887 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 889 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 901 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 902 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:08:03+08:00 ] 127.0.0.1 /index/search?q=%E5%8D%8E%E4%B8%BA&pn=7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T11:08:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:08:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:08:06+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:08:57+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:08:57+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.036002s ]
+
+[ 2013-06-25T11:08:57+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:09:30+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:30+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.023001s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 98 AND nums > 10 AND `keyword` NOT IN ("三星手机") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T11:09:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:09:31+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:31+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.023001s ]
+
+[ 2013-06-25T11:09:31+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:31+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.026002s ]
+
+[ 2013-06-25T11:09:32+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:32+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.004000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.018001s ]
+
+[ 2013-06-25T11:09:32+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:32+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.013001s ]
+
+[ 2013-06-25T11:09:33+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:33+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.004000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.024002s ]
+
+[ 2013-06-25T11:09:33+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:33+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.018001s ]
+
+[ 2013-06-25T11:09:33+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:33+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.027002s ]
+
+[ 2013-06-25T11:09:34+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:34+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.047003s ]
+
+[ 2013-06-25T11:09:34+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:34+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.004000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.032002s ]
+
+[ 2013-06-25T11:09:34+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:34+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.012000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.022001s ]
+
+[ 2013-06-25T11:09:35+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:35+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.024001s ]
+
+[ 2013-06-25T11:09:36+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:36+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.033002s ]
+
+[ 2013-06-25T11:09:36+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:36+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.025002s ]
+
+[ 2013-06-25T11:09:37+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:37+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.025002s ]
+
+[ 2013-06-25T11:09:37+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:37+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.025002s ]
+
+[ 2013-06-25T11:09:38+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001001s ]
+
+[ 2013-06-25T11:09:38+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.034002s ]
+
+[ 2013-06-25T11:09:38+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:38+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.024002s ]
+
+[ 2013-06-25T11:09:39+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:39+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.028002s ]
+
+[ 2013-06-25T11:09:39+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:39+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.019001s ]
+
+[ 2013-06-25T11:09:40+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT05w2DHW0CytsfjaKJPKc%2BPhDNuaOJh1GupRs3sjqwePZE7qyAygur
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 402 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 447 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 504 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 568 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 625 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 662 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:09:40+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星手机' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 98 ) [ RunTime:0.022001s ]
+
+[ 2013-06-25T11:09:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:09:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:09:45+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:10:09+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:10:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:10:13+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T11:10:13+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.028001s ]
+
+[ 2013-06-25T11:10:13+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T11:10:25+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T11:10:25+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:36:07+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:36:07+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.034002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.192011s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.260015s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 6 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 90 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 91 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 3 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 92 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 93 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 94 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 97 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 7 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 98 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.012001s ]
+NOTIC: [8] Undefined offset: 8 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 99 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 9 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 113 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 10 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T13:36:09+08:00 ] 127.0.0.1 /images/bbsbg.png?t=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2013-06-25T13:36:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:36:45+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZAPui5tHxC%2FJMShVL9nMJgbDkH2RIu1HoNA%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 27 )  [ RunTime:0.012001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 29 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 35 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 39 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 41 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 46 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 47 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 51 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 52 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 56 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:36:45+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F&pn=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T13:36:45+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:06+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZAO4i5S8cbZyhKU%2BAPfd35lYORDerFO%2FOcQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 61 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 65 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 79 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 83 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 95 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 96 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 110 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 115 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 119 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:06+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F&pn=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.004000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T13:37:06+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:11+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZACTJ2StneIipCH61X3iILN7b8AnsEqErcg%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 120 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 126 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 127 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 139 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 144 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 149 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 150 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 166 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 220 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:11+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F&pn=4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T13:37:12+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:15+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJRZqupcvmhhYAPV6Pl0YpXJJ8URT3qiFfrsLbncifG%2F6ouEfBrjjlaQ
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 465 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 655 )  [ RunTime:0.012001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 729 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:15+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9F%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 113 ) [ RunTime:0.032002s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 113 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 6 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 90 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 91 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 3 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 92 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 93 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 94 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 7 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 97 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 7 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 8 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 98 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 9 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 99 AND nums > 10 AND `keyword` NOT IN ("三星三星") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 10 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T13:37:15+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:24+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT1ArPzdQA6sT6rTYInSz5YPJ24BSu258bBz0J9NQP5E284l%2BajgBKN6PqKtAFSfSU%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 92 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:24+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9F%E7%AC%94%E8%AE%B0%E6%9C%AC
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星笔记本' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 92 ) [ RunTime:0.023001s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 92 AND nums > 10 AND `keyword` NOT IN ("三星笔记本") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T13:37:24+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:28+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJRZqupcvmhhYAPV6Pl0YpXJJ8URT3qiFfrsLbncifG%2F6ouEfBrjjlaQ
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 465 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 655 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 729 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:28+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9F%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星三星' )  [ RunTime:0.001001s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 113 ) [ RunTime:0.053003s ]
+
+[ 2013-06-25T13:37:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:31+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ09XR7wto26YxbTZtJ4oQYic%2FIGugewa%2FTYf71rHPS4anrI9CJdPfo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 99 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:31+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9FGalaxyS4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星GalaxyS4' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 99 ) [ RunTime:0.040002s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 99 AND nums > 10 AND `keyword` NOT IN ("三星GalaxyS4") )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T13:37:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:34+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJRZqupcvmhhYAPV6Pl0YpXJJ8URT3qiFfrsLbncifG%2F6ouEfBrjjlaQ
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 465 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 655 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 729 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:34+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9F%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 113 ) [ RunTime:0.029001s ]
+
+[ 2013-06-25T13:37:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:35+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJT1ArPzdQA6sT6rTYInSz5YPJ24BSu258bBz0J9NQP5E284l%2BajgBKN6PqKtAFSfSU%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 92 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T13:37:35+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9F%E7%AC%94%E8%AE%B0%E6%9C%AC
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星笔记本' )  [ RunTime:0.001001s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 92 ) [ RunTime:0.026001s ]
+
+[ 2013-06-25T13:37:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-06-25T13:37:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:44+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:44+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.025001s ]
+
+[ 2013-06-25T13:37:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:48+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZAIo%2BnD%2FMIt7zsCcntgh%2Fo00z6PyXhBxOHA%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 341 )  [ RunTime:0.013001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 344 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 351 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 353 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 358 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 364 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 365 )  [ RunTime:0.071004s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 366 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 368 )  [ RunTime:0.011001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 370 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:48+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F&pn=7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T13:37:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T13:37:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2013-06-25T13:37:58+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T16:53:07+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+
+[ 2013-06-25T16:53:12+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T16:53:31+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.049003s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.029001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T16:53:31+08:00 ] 127.0.0.1 /index/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.070004s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.543031s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.301018s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 6 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.027001s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 90 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.075005s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 91 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.012000s ]
+NOTIC: [8] Undefined offset: 2 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 3 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 92 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 93 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 4 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 94 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.017001s ]
+NOTIC: [8] Undefined offset: 5 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 97 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 6 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 7 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 98 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 8 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 99 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 9 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 113 AND nums > 10 AND `keyword` NOT IN ("三星") )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 10 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T16:53:31+08:00 ] 127.0.0.1 /images/bbsbg.png?t=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2013-06-25T16:53:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T16:53:39+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQrWSj%2FAgyhqJHgcHkcJ8VWG%2FVNLs14WWG54zAdskgdRg%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 90 )  [ RunTime:0.198012s ]
+
+[ 2013-06-25T16:53:39+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9FMP3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.004001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星MP3' )  [ RunTime:0.000000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 90 ) [ RunTime:0.057003s ]
+SQL: SELECT `keyword`,`nums` FROM `ns_keywords` WHERE ( id = 90 AND nums > 10 AND `keyword` NOT IN ("三星MP3") )  [ RunTime:0.015001s ]
+NOTIC: [8] Undefined offset: 0 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 1 D:\www\test\PHP\NS\App\Modules\Web\Model\KeyWordsModel.class.php 第 66 行.
+
+[ 2013-06-25T16:53:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T16:53:44+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQrWSj%2FAgyhqJHgcHkcJ8VWG%2FVNLs14WWG54zAdskgdRg%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 90 )  [ RunTime:0.001000s ]
+
+[ 2013-06-25T16:53:44+08:00 ] 127.0.0.1 /index/search/?q=%E4%B8%89%E6%98%9FMP3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.013001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星MP3' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 90 ) [ RunTime:0.023001s ]
+
+[ 2013-06-25T16:53:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T16:53:48+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZALEYFw9j61VTGBM1fhNh0AECBVbvd3sJLQ%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 3 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 14 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 25 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T16:53:48+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003001s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SELECT * FROM `ns_keywords` WHERE ( `keyword` = '三星' )  [ RunTime:0.001000s ]
+SQL: UPDATE `ns_keywords` SET `nums`=nums+1,`create_time`=UNIX_TIMESTAMP() WHERE ( id = 6 ) [ RunTime:0.051003s ]
+
+[ 2013-06-25T16:53:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
+[ 2013-06-25T16:53:50+08:00 ] 127.0.0.1 /api/search/get.json?p=KIb6skTwg6KHpPdtrNthjikSLdv8UOH%2Fg63xNxwahJQ6gevpxaIZAIo%2BnD%2FMIt7zsCcntgh%2Fo00z6PyXhBxOHA%3D%3D
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ns_product` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 341 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 344 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 351 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 353 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 358 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 364 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 365 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 366 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 368 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ns_product` WHERE ( id = 370 )  [ RunTime:0.000000s ]
+
+[ 2013-06-25T16:53:50+08:00 ] 127.0.0.1 /index/search?q=%E4%B8%89%E6%98%9F&pn=7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ns_keywords` [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2013-06-25T16:53:51+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: group D:\www\test\PHP\NS\library\Tlib\Lib\Core\App.class.php 第 120 行.
+ERR: 无法加载模块:Favicon.ico
+
